@@ -1,4 +1,4 @@
-var config = require('./config.json')
+var config = require('./sample-config.json')
 var binance = require('node-binance-api')().options({
     APIKEY: config.API_KEY,
     APISECRET: config.SECRET_KEY,
